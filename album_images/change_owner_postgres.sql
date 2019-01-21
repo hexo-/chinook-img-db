@@ -1,0 +1,11 @@
+ALTER TABLE "Album" OWNER TO scott;
+ALTER TABLE "Artist" OWNER TO scott;
+ALTER TABLE "Customer" OWNER TO scott;
+ALTER TABLE "Employee" OWNER TO scott;
+ALTER TABLE "Genre" OWNER TO scott;
+ALTER TABLE "Invoice" OWNER TO scott;
+ALTER TABLE "InvoiceLine" OWNER TO scott;
+ALTER TABLE "MediaType" OWNER TO scott;
+ALTER TABLE "Playlist" OWNER TO scott;
+ALTER TABLE "PlaylistTrack" OWNER TO scott;
+ALTER TABLE "Track" OWNER TO scott;
