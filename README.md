@@ -5,7 +5,9 @@ Chinook Album Images Database is upgraded version of Chinook Database (c) 2008-2
 Chinook is a popular sample database. You can find Chinook project at [https://github.com/lerocha/chinook-database](https://github.com/lerocha/chinook-database)
 
 In Chinook Album Images Database table Albums is modified by adding Img (BLOB) column. Sql scripts provided will load images into Album.img and "default" Chinook data.
- 
+
+Album images stored in databases are found by Google search and they are copyrighted by their copyright owners. Images should not be used in production envirnoment or presented publicly. You can use them only for database testing.
+
 Directories
 -----------------------------
 
@@ -14,6 +16,9 @@ You should have user scott before you execute this script at Postgress db.
 
 - **sqlite** - chinook-sqlite.7z is 7zip compressed version of sql script for creating Chinook database and loading data. Unfortunatelly **THIS SCRIPT DOES NOT WORK**. The problem is that I didn't find decent utiliy that could make an export of sqlite database (in order of foreign key dependencies).
 Instead of trying to play chinook-sqlite.7z, please use database file **"chinook.db"**.  I'll be grateful if you can contribute by creating valid sql scripts that could be loaded with SQLite Browser.
+
+- **mysql** - chinook-mysql.7z is 7zip compressed version of sql script for loading Chinook image database into MySQL. First create database chinook then run sql script using this database.
+
 
 - **album_images** - You can find here jpeg images of Albums found by google search & various scripts I've used to download images and "upload" them to Album.Img column.
 
